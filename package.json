@@ -1,0 +1,33 @@
+{
+  "name": "supreethaa-birthday-vod",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "upload:r2": "node scripts/upload-r2.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.468.0",
+    "next": "^16.3.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1137.0",
+    "@aws-sdk/lib-storage": "^3.1137.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "autoprefixer": "^10.6.1",
+    "dotenv": "^18.0.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  }
+}
